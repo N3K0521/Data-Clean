@@ -1,0 +1,11 @@
+[
+	{ "discipline": "Basketball", "count": 74 },
+	{ "discipline": "Artistic Swimming", "count": 69 },
+	{ "discipline": "Football", "count": 59 },
+	{ "discipline": "Hockey", "count": 45 },
+	{ "discipline": "Volleyball", "count": 45 },
+	{ "discipline": "Handball", "count": 29 },
+	{ "discipline": "Baseball/Softball", "count": 26 },
+	{ "discipline": "Rugby Sevens", "count": 25 },
+	{ "discipline": "Water Polo", "count": 22 }
+]

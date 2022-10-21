@@ -1,0 +1,65 @@
+{
+	"data": {
+		"values": [
+			{
+				"variety": "United States of America",
+				"yield": 39,
+				"site": "Gold"
+			},
+			{
+				"variety": "United States of America",
+				"yield": 41,
+				"site": "Silver"
+			},
+			{
+				"variety": "United States of America",
+				"yield": 33,
+				"site": "Bronze"
+			},
+			{
+				"variety": "People's Republic of China",
+				"yield": 38,
+				"site": "Gold"
+			},
+			{
+				"variety": "People's Republic of China",
+				"yield": 32,
+				"site": "Silver"
+			},
+			{
+				"variety": "People's Republic of China",
+				"yield": 18,
+				"site": "Bronze"
+			},
+			{ "variety": "ROC", "yield": 20, "site": "Gold" },
+			{ "variety": "ROC", "yield": 28, "site": "Silver" },
+			{ "variety": "ROC", "yield": 23, "site": "Bronze" },
+			{ "variety": "Great Britain", "yield": 22, "site": "Gold" },
+			{ "variety": "Great Britain", "yield": 21, "site": "Silver" },
+			{ "variety": "Great Britain", "yield": 22, "site": "Bronze" },
+			{ "variety": "Japan", "yield": 27, "site": "Gold" },
+			{ "variety": "Japan", "yield": 14, "site": "Silver" },
+			{ "variety": "Japan", "yield": 17, "site": "Bronze" },
+			{ "variety": "Australia", "yield": 17, "site": "Gold" },
+			{ "variety": "Australia", "yield": 7, "site": "Silver" },
+			{ "variety": "Australia", "yield": 22, "site": "Bronze" },
+			{ "variety": "Italy", "yield": 10, "site": "Gold" },
+			{ "variety": "Italy", "yield": 10, "site": "Silver" },
+			{ "variety": "Italy", "yield": 20, "site": "Bronze" },
+			{ "variety": "Germany", "yield": 10, "site": "Gold" },
+			{ "variety": "Germany", "yield": 11, "site": "Silver" },
+			{ "variety": "Germany", "yield": 16, "site": "Bronze" },
+			{ "variety": "Netherlands", "yield": 10, "site": "Gold" },
+			{ "variety": "Netherlands", "yield": 12, "site": "Silver" },
+			{ "variety": "Netherlands", "yield": 14, "site": "Bronze" },
+			{ "variety": "France", "yield": 10, "site": "Gold" },
+			{ "variety": "France", "yield": 12, "site": "Silver" },
+			{ "variety": "France", "yield": 11, "site": "Bronze" }
+		]
+	},
+	"mark": "point",
+	"encoding": {
+		"x": { "field": "a", "type": "nominal" },
+		"y": { "aggregate": "average", "field": "b", "type": "quantitative" }
+	}
+}

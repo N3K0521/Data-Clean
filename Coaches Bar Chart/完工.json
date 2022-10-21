@@ -1,0 +1,37 @@
+{
+	"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+	"description": "A simple bar chart with embedded data.",
+		"width": 800,
+	  "height": 400,
+	"data": {
+	  "values": [
+	  { "discipline": "Basketball", "count": 74 },
+	  { "discipline": "Artistic Swimming", "count": 69 },
+	  { "discipline": "Football", "count": 59 },
+	  { "discipline": "Hockey", "count": 45 },
+	  { "discipline": "Volleyball", "count": 45 },
+	  { "discipline": "Handball", "count": 29 },
+	  { "discipline": "Baseball/Softball", "count": 26 },
+	  { "discipline": "Rugby Sevens", "count": 25 },
+	  { "discipline": "Water Polo", "count": 22 }
+  ]
+  
+	},
+	"encoding": {
+	  "x": {"field": "discipline", "type": "nominal", "title": "","axis": {"labelAngle": 0},"sort": ""},
+	  "y": {"field": "count", "type": "quantitative","title": ""}
+	},
+	  "layer": [{
+	  "mark": "bar"
+	}, {
+	  "mark": {
+		"type": "text",
+		"align": "center",
+		"baseline": "line-bottom"
+	  },
+	  "encoding": {
+		"text": {"field": "count", "type": "quantitative"}
+	  }
+	}]
+  }
+  
